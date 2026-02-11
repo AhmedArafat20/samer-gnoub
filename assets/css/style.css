@@ -686,3 +686,13 @@ body{
   object-fit: contain;
   border-radius: 12px;
 }
+/* ===== تقليل المسافة بين التوب بار والناف ===== */
+@media (min-width: 1200px){
+  .header{
+    top: 46px; /* بدل 60px أو أي رقم عندك */
+  }
+
+  body{
+    padding-top: calc(var(--headerH) + 46px);
+  }
+}
